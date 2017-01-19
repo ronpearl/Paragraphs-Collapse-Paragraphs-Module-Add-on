@@ -10,3 +10,9 @@ There is also a configuration for this module to clean up each entity listing so
 Create a folder in your modules folder called "paragraphcollapse", and then put all of these files into that folder. Then go to your Extend page in your Drupal admin section and install it. The name of the module will be "Paragraph Collapse Sections".
 
 Once installed, go back to edit your content type that includes your Paragraphs and enjoy the new view!
+
+## Settings
+Located under **Configuration > Development > Paragraph Collapse Settings**
+
+Currently there is only a setting for cleaning up the "Type: " text when viewing the paragraphs from within your content type, but there may be more added as time goes on.
+
