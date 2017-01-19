@@ -1,1 +1,10 @@
-
+paragraphcollapse.settings:
+  type: config_object
+  label: 'Paragraph Collapse Settings'
+  mapping:
+    clean_type:
+      type: sequence
+      label: 'Remove the word Type in each Paragraph'
+      sequence:
+        type: string
+        label: 'Yes or No'
