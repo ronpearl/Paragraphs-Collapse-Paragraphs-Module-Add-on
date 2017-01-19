@@ -1,1 +1,25 @@
+button.paragraphs-subform-collapsable-button {
+    border: none;
+    background-color: #97b5da;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 10px;
+    margin-right: 10px;
+    padding: 2px 10px;
+}
 
+.paragraphs-subform-collapsable-content {
+    display: none;
+}
+
+.field-multiple-table .draggable.even {
+    background-color: #fbfdff;
+}
+
+.field-label {
+    background: #6b829e;
+    border-width: 0;
+    color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
