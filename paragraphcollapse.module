@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Paragraph Collapse Module hooks.
+ */
+
+
+/**
+ * Adds custom css/js files to the admin pages.
+ *
+ * @param array $attachments
+ */
+function paragraphcollapse_page_attachments(array &$attachments) {
+  // Adding css file for admin section
+  $routeName = \Drupal::routeMatch()->getRouteName();
+
+  if ($routeName == 'entity.node.edit_form') {
+    $config = \Drupal::config('paragraphcollapse.settings');
+
+    $attachments['#attached']['library'][] = 'paragraphcollapse/admin.addonfiles';
+    $attachments['#attached']['drupalSettings']['paragraphcollapse']['admin']['clean_type'] = $config->get('clean_type');
+  }
+}

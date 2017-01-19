@@ -1,0 +1,7 @@
+paragraphcollapse.admin_settings:
+  path: '/admin/config/content/paragraphcollapse'
+  defaults:
+    _form: '\Drupal\paragraphcollapse\Form\ParagraphCollapseSettingsForm'
+    _title: 'Paragraph Collapse Settings'
+  requirements:
+    _permission: 'administer paragraphcollapse'
