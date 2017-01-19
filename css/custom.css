@@ -16,7 +16,7 @@ button.paragraphs-subform-collapsable-button {
     background-color: #fbfdff;
 }
 
-.field-label {
+.field-multiple-table .field-label {
     background: #6b829e;
     border-width: 0;
     color: #fff;
