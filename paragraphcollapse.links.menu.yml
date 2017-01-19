@@ -1,5 +1,5 @@
 paragraphcollapse.admin_settings:
-  title: 'Pargraph Collapse Settings'
+  title: 'Paragraph Collapse Settings'
   description: 'Controls for Paragraph Collapse'
   route_name: paragraphcollapse.admin_settings
   parent: system.admin_config_development
